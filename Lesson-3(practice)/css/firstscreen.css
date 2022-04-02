@@ -1,0 +1,16 @@
+.container{max-width: 1170px;   
+   margin: auto;}   
+.main-title {font-family: 'Raleway', sans-serif;  
+   font-size: 36px;
+         line-height: 42px;
+          font-weight: 400;
+           text-align: center;
+           margin-bottom: 34px;
+   }
+.border{width: 64px;height: 2px;background-color:#E72424 ;
+margin:auto; } 
+.text { font-family: 'Open Sans', sans-serif;font-size: 14px;
+      line-height: 19px;font-weight: 400 ;
+    text-align: center; margin-top: 34px;}
+p{color: #86878B;}
+.section{padding: 80px 0px 0;}
