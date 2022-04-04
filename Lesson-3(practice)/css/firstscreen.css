@@ -1,5 +1,6 @@
 .container{max-width: 1170px;   
    margin: auto;
+   padding: 0 15px;
 }   
 .main-title {font-family: 'Raleway', sans-serif;  
    font-size: 36px;
