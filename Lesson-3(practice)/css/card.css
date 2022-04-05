@@ -35,3 +35,56 @@ text-align: center;
   }
 .card-text p{text-align: center;
    color: #000000;}
+
+ .wrap {  display: flex;
+   justify-content: center;
+   flex-direction: row;
+   align-items: center;    
+  margin: 62px -15px 0;
+  padding: 0 15px;
+ }
+ 
+.price-list {margin: 0 15px;
+}
+.price-list-tarif {width: 340px;
+   font-family: 'Open Sans';
+   font-weight: 700;
+   font-size: 20px;
+   line-height: 50px;
+   text-align: center; 
+   background: #333333;
+   margin-bottom: 2px; 
+   color: #FFFFFF;
+
+}
+.price-list-price {font-family: 'Raleway', sans-serif;  
+   font-size: 35px;
+         line-height: 100px;
+          font-weight: 700;
+           text-align: center;
+           ext-transform: uppercase;
+           background: #333333;
+           color: #FFFFFF;
+           margin-bottom: 2px;
+}
+.price-list-timer {width: 340px;
+   font-family: 'Open Sans';
+   font-weight: 600;
+   font-size: 14px;
+   line-height: 50px;
+   text-align: center; 
+   background: #333333;
+   margin-bottom: 2px; 
+   color: rgba(255, 255, 255, 0.5);;
+}
+.price-list-weight {
+   width: 340px;
+   font-family: 'Open Sans';
+   font-weight: 400;
+   font-size: 20px;
+   line-height: 40px;
+   text-align: center; 
+   background: #FFFFFF;
+   margin-bottom: 4px; 
+   color: #86878B;
+}
