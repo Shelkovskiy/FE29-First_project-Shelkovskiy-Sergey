@@ -42,6 +42,7 @@ text-align: center;
    align-items: center;    
   margin: 62px -15px 0;
   padding: 0 15px;
+  flex-wrap: wrap;
  }
  
 .price-list {margin: 0 15px;
