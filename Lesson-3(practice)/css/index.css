@@ -2,7 +2,12 @@
 @import url(./header.css);
 @import url(./firstscreen.css);
 @import url(./card.css); 
-@import url(./footer.css);     
+@import url(./footer.css);
+@import url(./awesome.css);
+@import url(./pricing.css);
+@import url(./axure.css);
+@import url(./customers.css);
+
 
 * {margin: 0;
    padding: 0;
