@@ -4,10 +4,9 @@
 .wrap {  display: flex;
    justify-content: center;         
   margin: 62px -15px 0;
-  padding: 0 15px;
-  flex-wrap: wrap;
+    flex-wrap: wrap;
  } 
-.price-list {margin: 0 39px;
+.price-list {margin: 0 15px;
 }
 .price-list-tarif {width: 340px;
    font-family: 'Open Sans';

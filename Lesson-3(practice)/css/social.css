@@ -1,0 +1,104 @@
+.social{background: #F8EFEF;}
+.social-container{
+   max-width: 1170px;   
+      margin: auto;
+      padding: 0 15px;
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+
+   }
+
+
+.social-title {font-family: 'Open Sans', sans-serif;
+   font-size: 20px;
+   line-height: 27px;font-weight: 700 ;
+   margin-top: 14px;
+   margin-bottom: 14px;
+ 
+}
+.social-text {width: 365px;
+   font-family: 'Open Sans', sans-serif;
+   font-size: 14px;
+   line-height: 19px;font-weight: 400 ;
+   margin-bottom: 17px;
+}
+.social-text p{color:rgba(134, 135, 139, 1)}
+
+.navigation-list-item{
+   display: inline-block;
+ 
+}
+.navigation-list{
+   display: flex;
+   justify-content: space-evenly;
+}
+.navigation {width: 684px;
+}
+
+.footer-fb{  color:cornflowerblue;
+   
+   font-size: 40px;
+}
+.fa-facebook-f:hover{
+   transform: scale(1.5);
+   color: blueviolet;
+}
+.footer-tw{
+   color:cornflowerblue;
+   font-size: 40px;   
+}
+.fa-twitter:hover{
+   transform: rotate(-45deg);
+   color: blueviolet;}
+
+.footer-g-plus{
+   color:cornflowerblue;
+   font-size: 40px;   
+}
+.fa-google-plus-g:hover{
+   transform: scale(1.5);
+   color: blueviolet;}
+
+.footer-twitch{
+   color:cornflowerblue;
+   font-size: 40px;   
+}
+.fa-twitch:hover{
+   transform: rotate(45deg);
+   color: blueviolet;}
+
+.footer-inst{
+   color:cornflowerblue;
+   font-size: 40px;   
+}
+.fa-instagram:hover{
+   transform: scale(1.5);
+   color: blueviolet;}
+
+.footer-youtube
+{
+   color:cornflowerblue;
+   font-size: 40px;  
+}
+.fa-youtube:hover{
+   transform: rotate(-45deg);
+   color: blueviolet;}
+
+.footer-dog{
+   color:cornflowerblue;
+   font-size: 40px;  
+}
+.fa-dog:hover{
+   transform: scale(1.5);
+   color: blueviolet;}
+
+.footer-cat{
+   color:cornflowerblue;
+   font-size: 40px;  
+}
+
+.fa-cat:hover{
+   transform: rotate(45deg);
+   color:blueviolet
+}

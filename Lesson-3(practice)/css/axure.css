@@ -12,7 +12,7 @@
       position: relative;
       z-index: 2;
    }
-   .axure-main-title{font-family: 'Raleway', sans-serif;  
+   .axure-title{font-family: 'Raleway', sans-serif;  
       font-size: 36px;
             line-height: 42px;
              font-weight: 400;
@@ -47,25 +47,21 @@
       
           z-index: 1;
    }
-.button-item{
-   display: flex;
-   justify-content: center;
-}
-.button-item{margin-top: 57px;   
-  box-sizing: border-box;
- 
-}  
+
   
-.button{
-  font-family: 'Open Sans', sans-serif;font-size: 15px;
-     line-height: 20px;font-weight: 600 ;
-     text-align: center; 
-     margin: auto;
-     padding:11px 26px;  
-    color: rgba(255, 255, 255, 1);
-    background: none;
-    
-    
-   
+.button{width: 135px;
+        height: 42px;
+        box-sizing: border-box;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 15px;
+        font-weight: 600 ;
+        display: block;
+        margin:57px auto 0;
+        border: 1px solid white;
+        color: rgba(255, 255, 255, 1);
+        background: none; 
+        transition: 0.2s;   
 }   
- 
+ .button:hover{
+    transform:scale(1.05);
+ }
