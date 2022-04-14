@@ -1,15 +1,16 @@
 .social{background: #F8EFEF;}
-.social-container{
+.container{
    max-width: 1170px;   
       margin: auto;
       padding: 0 15px;
-      display: flex;
-      justify-content: space-evenly;
-      align-items: center;
+     
 
    }
 
-
+.wrap{display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
 .social-title {font-family: 'Open Sans', sans-serif;
    font-size: 20px;
    line-height: 27px;font-weight: 700 ;

@@ -1,7 +1,7 @@
 .pricing{padding: 80px 0 60px;
    background-color:#F5F5F5; }
 
-.wrap {  display: flex;
+.pricing-wrap {  display: flex;
    justify-content: center;         
   margin: 62px -15px 0;
     flex-wrap: wrap;
@@ -17,7 +17,10 @@
    background: #333333;
    margin-bottom: 2px; 
    color: #FFFFFF;
-
+   
+}
+.price-list-tarif:hover{transform: scale(1.05);
+box-shadow: 0px 0px 6px 4px rgba(0, 0, 0, 0.952);
 }
 .price-list-price {font-family: 'Raleway', sans-serif;  
    font-size: 35px;
@@ -29,6 +32,13 @@
            color: #FFFFFF;
            margin-bottom: 2px;
 }
+.price-list-price:hover{
+   transform: rotate(-1deg);
+   box-shadow: 0px 0px 6px 4px rgba(0, 0, 0, 0.952);
+   }
+.price-list-timer:hover{transform: scale(1.05);
+   box-shadow: 0px 0px 6px 4px rgba(0, 0, 0, 0.952);
+   }
 .price-list-timer {width: 340px;
    font-family: 'Open Sans';
    font-weight: 600;
@@ -38,6 +48,7 @@
    background: #333333;
    margin-bottom: 2px; 
    color: rgba(255, 255, 255, 0.5);}
+
 .price-list-weight {
    width: 340px;
    font-family: 'Open Sans';
@@ -47,6 +58,10 @@
    text-align: center; 
    background: #FFFFFF;
    margin-bottom: 4px; 
-   color: #86878B;   
-}
+   color: #86878B; }
+
+   .price-list-weight:hover{transform: scale(1.05);
+      box-shadow: 0px 0px 20px 4px rgba(48, 45, 45, 0.952);
+      }
+
 .price-list-weight:last-child { margin-bottom: 0; }

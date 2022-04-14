@@ -29,6 +29,7 @@
    margin-top: 34px;
  
 }
+
 .card{display: flex;
    justify-content: center;
    align-items: center;
@@ -48,7 +49,23 @@
    align-items: center;
    margin-bottom: 30px;
 }
-.card-img img{height: 100%; width:23px;height: 30px;}
+.fa-free-code-camp{font-size: 50px ;
+   color: rgb(235, 144, 111);}
+.fa-free-code-camp:hover{
+   transform: rotate(30deg);
+   color: cornflowerblue;
+}
+
+.fa-keyboard{font-size: 40px;color: rgb(235, 144, 111);}
+.fa-keyboard:hover{transform:scale(1.2);
+color: cornflowerblue;}
+.fa-bolt-lightning{font-size: 37px;
+   color: rgb(235, 144, 111);
+
+}
+.fa-bolt-lightning:hover{transform: skew(45deg);
+   color: cornflowerblue;}
+
 .card-title {font-family: 'Open Sans';
    font-weight: 700;
    font-size: 20px;
