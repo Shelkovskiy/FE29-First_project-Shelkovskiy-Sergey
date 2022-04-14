@@ -1,0 +1,116 @@
+.portfolio-card-title {
+  font-size: 24px;
+  font-weight: 500;
+  color:#6C63FF;
+    margin-bottom: 20px;
+}
+.portfolio-card-title::before {
+  content: "";
+  width: 50px;
+  height: 50px;
+  background-image: url("../img/icons/sendpay.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 15px;
+}
+.card-img__portfolio {
+  width: 289px;
+  height: 164px;
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 0;
+  position: relative;
+  z-index: 1;
+}
+.card-portfolio-item::after {
+  content: "";
+  width: 195px;
+  height: 195px;
+  border-radius: 50%;
+  background-color: rgba(100, 149, 237, 0.5);
+  display: block;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  z-index: 1;
+}
+.card-content {
+  position: relative;
+  z-index: 2;
+}
+
+.portfolio_commerce-card-title{
+  
+  font-size: 24px;
+  font-weight: 500;
+  color: #4581F6;
+  margin-bottom: 20px;
+  
+ 
+  }
+
+.portfolio_commerce-card-title::before{
+  content: 'E-';
+  font-size: 34px;
+ 
+  color: #4581F6; 
+  flex-direction: row;
+  justify-content: flex-start;
+  vertical-align: middle;
+ 
+}
+
+  
+  .card_commerce-portfolio-item::after {
+    content: "";
+    width: 195px;
+    height: 195px;
+    border-radius: 50%;
+    background-color:#4DC2F1;
+    display: block;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    z-index: 1;}
+   
+    
+    .portfolio_beatscard-title {font-size: 24px;
+      font-weight: 500;
+      color:rgba(12, 12, 12, 0.842) ;
+      margin-bottom: 34px;
+      line-height: 50px;
+      
+     }
+      
+    .portfolio_beatscard-title::Before{
+      content: 'B';
+      font-size: 50px;
+      color:rgba(12, 12, 12, 0.842);
+      justify-content: flex-start;
+      margin-left: -15.13px;
+       
+ 
+    } 
+    
+
+    .card_beats-portfolio-item::after {
+      content: "";
+      width: 195px;
+      height: 195px;
+      border-radius: 50%;
+      background-color:#7c54e057;
+      display: block;
+      position: absolute;
+      top: 20px;
+      left: 20px;
+      z-index: 1;
+    }
+    
+    
+    
+    
+      
+  

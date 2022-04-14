@@ -1,0 +1,31 @@
+.firstscreen {
+  padding: 50px 0;
+}
+.firstscreen-left {
+  width: 600px;
+}
+.main-title {
+  font-size: 50px;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+.main-title::before {
+  content: "Hi!";
+  display: block;
+  font-weight: 100;
+}
+.firstscreen-text p {
+  font-size: 23px;
+  font-weight: 400;
+}
+.firstscreen-right {
+  width: 500px;
+}
+.firstscreen-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.firstscreen-img img {
+  width: 100%;
+}
