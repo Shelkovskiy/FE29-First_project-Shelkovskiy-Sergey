@@ -1,0 +1,30 @@
+.contact-card {
+   width: 240px;
+     
+}
+.contact-img {display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-bottom: 30px;
+}
+.contact-title {
+   
+}
+.contact-text {
+   font-family: "Poppins", sans-serif;
+   font-size: 35px;
+  font-weight: 500;
+  line-height: 52px;  
+   text-align: center;
+}
+.contact-logo-title{
+   font-family: "Poppins", sans-serif;
+   font-size: 35px;
+  font-weight: 500;
+  line-height: 52px;  
+   text-align: center;
+   color: #14279B;
+   margin-bottom: 59px;
+   letter-spacing: 0.055em;
+
+}
