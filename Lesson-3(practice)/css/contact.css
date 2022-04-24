@@ -1,0 +1,134 @@
+.contact{padding: 80px 0 44px}
+.contact-wrap{   
+    margin-top: 91px ;
+    justify-content: center;
+    align-items: center;
+}
+.contact-form{
+   display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+   border: 0;
+}
+.contact-form-left{
+   width: 40%;
+   
+
+}
+.contact-form-right{
+   width: 40%;
+}
+
+.contact-content-item{  
+   margin-bottom: 32px;
+   width: 100%;
+  
+     }
+
+
+      
+.contact-name{font-family: 'open sans', sans-serif;  
+font-size: 14px;
+      line-height: 19px;
+       font-weight: 400; 
+        color: #BDBDBD ;          
+     
+}
+input[type="contact-text"] { width: 100%;
+   display: block;
+   border: 0;
+   border-bottom: 1px solid #BDBDBD ;
+   outline: none; 
+   font-family: 'open sans', sans-serif;  
+   font-size: 14px;
+        line-height: 19px;
+         font-weight: 400;
+         padding: 0 5px;
+         color: #020202b2;
+         margin-top: 32px;
+         
+   }
+
+input[type="contact-email"] { width: 100%;   
+   display: block;   
+   border: 0;
+   border-bottom: 1px solid #BDBDBD ;
+   outline: none; 
+   font-family: 'open sans', sans-serif;  
+   font-size: 14px;
+        line-height: 19px;
+         font-weight: 400;
+         padding: 0 5px;
+         color: #020202b2;
+         
+    
+}
+.contact-email{font-family: 'open sans', sans-serif;  
+font-size: 14px;
+      line-height: 19px;
+       font-weight: 400;           
+        color: #BDBDBD;  
+        
+ 
+}
+input[type="contact-password"] {width: 100%;
+display: block;
+border: 0;
+border-bottom: 1px solid #BDBDBD ;
+outline: none; 
+font-family: 'open sans', sans-serif;  
+ font-size: 14px;
+       line-height: 19px;
+        font-weight: 400;
+        padding: 0 5px;
+        color: #020202b2;
+        margin-top: 49px;
+
+}
+   
+
+.contact-password{font-family: 'open sans', sans-serif;  
+font-size: 14px;
+      line-height: 19px;
+       font-weight: 400;           
+        color: #BDBDBD;
+       
+       }
+
+.label-textarea{font-family: 'open sans', sans-serif;  
+   font-size: 14px;
+         line-height: 19px;
+          font-weight: 400;           
+           color: #BDBDBD; 
+      
+}
+.textarea{width: 100%;
+   height: 216px;
+   display: block;
+   border:0 ;
+   border-bottom: 1px solid #BDBDBD;
+   outline: none; 
+font-family: 'open sans', sans-serif;  
+ font-size: 14px;
+       line-height: 19px;
+        font-weight: 400;
+        padding: 0 5px;
+        color: #020202b2;
+}
+ 
+.contact-button{width: 166px;
+   background-color: #EC7979;
+   border: 1px solid #FFFFFF;
+   font-size: 15px;
+   line-height: 57px;
+      font-family: 'open sans', sans-serif;
+   font-weight: 600;
+   text-align: center;
+   color:#FFFFFF;
+   border: 0;
+   display: block;
+   margin: auto;
+   margin-top: 68px;
+}
+      
